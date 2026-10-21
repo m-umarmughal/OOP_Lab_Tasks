@@ -1,0 +1,20 @@
+package Inheritance;
+
+public class Multiply {
+    int multiply(int a, int b) {
+        return a * b;
+    }
+  
+    int multiply(int a, int b, int c) {
+        return a * b * c;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Multiply obj = new Multiply();
+        
+        System.out.println("Result 1: " + obj.multiply(5, 2));
+        System.out.println("Result 2: " + obj.multiply(1, 2, 3));
+    }
+}
